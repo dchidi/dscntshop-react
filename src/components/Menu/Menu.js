@@ -13,7 +13,6 @@ import {
   MDBDropdownMenu,
   MDBDropdownToggle,
   MDBDropdownItem,
-  MDBDropdownLink,
   MDBBadge,
 } from "mdb-react-ui-kit";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -94,20 +93,20 @@ const Menu = () => {
               {/* Link to acts as anchor to the new page */}
               {ctx.isAdmin ? (
                 // <Link to="/admin/crawler">
-                <MDBDropdownLink href="/admin/crawler">Admin</MDBDropdownLink>
+                <MDBNavbarLink href="/admin/crawler">Admin</MDBNavbarLink>
               ) : (
                 // </Link>
                 // <Link to="#"></Link>
-                <MDBDropdownLink></MDBDropdownLink>
+                <MDBNavbarLink></MDBNavbarLink>
               )}
             </MDBDropdownItem>
             <MDBDropdownItem>
               {/* <Link to="/profile/details"> */}
-              <MDBDropdownLink href="/profile/details">Profile</MDBDropdownLink>
+              <MDBNavbarLink href="/profile/details">Profile</MDBNavbarLink>
               {/* </Link> */}
             </MDBDropdownItem>
             <MDBDropdownItem>
-              <MDBDropdownLink onClick={logout}>Logout</MDBDropdownLink>
+              <MDBNavbarLink onClick={logout}>Logout</MDBNavbarLink>
             </MDBDropdownItem>
           </MDBDropdownMenu>
         </MDBDropdown>
