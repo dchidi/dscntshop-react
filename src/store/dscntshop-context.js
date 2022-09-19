@@ -68,7 +68,7 @@ export function DscntshopContextProvider(props) {
       .catch((err) => {
         console.log(err.message);
       });
-  }, [INIT_DATA_API]);
+  }, [data]);
 
   //   return the component created by createContext with the props that have all the exposed functions and properties of the global context.
   // Also use the props.children to allow wrapping of other components inside this component
