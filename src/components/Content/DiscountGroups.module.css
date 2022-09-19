@@ -1,0 +1,50 @@
+:root {
+  --color-one: rgb(26, 26, 54);
+  --color-two: #880e4f;
+  --color-three: #fff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.discountGroup {
+  /* margin-top: 20px; */
+  padding: 30px;
+  /* background-color: azure; */
+}
+a {
+  color: var(--color-one);
+}
+
+.rec {
+  /* background-color: var(--color-two); */
+  background-color: #fff;
+  /* border: none; */
+  position: relative;
+  width: 12rem;
+  height: 60px;
+  /* color: var(--color-three); */
+  color: rgb(44, 43, 43);
+  border: solid 2px rgb(44, 43, 43);
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.lCircle,
+.rCircle {
+  background-color: var(--color-three);
+  border: none;
+  position: relative;
+  width: 30px;
+  height: 40px;
+  margin-top: 11px;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.lCircle {
+  margin-right: -8px;
+}
+
+.rCircle {
+  margin-left: -8px;
+}

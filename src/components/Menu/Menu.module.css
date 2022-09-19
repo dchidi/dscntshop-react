@@ -1,0 +1,35 @@
+:root {
+  --primaryColor: #1f1b44 !important;
+  --secondaryColor: #cb5e18 !important;
+  --grey: #555 !important;
+  --lightGrey: #777 !important;
+}
+.menu {
+  border-radius: 0%;
+  box-shadow: none;
+  padding: 20px;
+  border-bottom: solid 1px #eee;
+}
+.cart,
+.user {
+  font-size: 23px;
+  color: var(--grey);
+}
+.logo {
+  color: var(--primaryColor);
+}
+.innerLogo {
+  color: var(--secondaryColor);
+}
+.badge {
+  position: relative;
+  background-color: var(--secondaryColor);
+  top: -18px;
+  border-radius: 50%;
+}
+.coupon {
+  color: var(--secondaryColor);
+}
+.couponDark {
+  color: var(--grey);
+}

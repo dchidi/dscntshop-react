@@ -1,0 +1,25 @@
+ul li {
+  list-style-type: none;
+}
+
+ul.side li {
+  border-right: 1px solid rgb(116, 114, 114);
+  width: 220px;
+  padding: 15px;
+}
+
+.active,
+.active:hover {
+  background-color: rgb(245, 215, 175);
+  color: rgb(78, 61, 39);
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid rgb(244, 187, 181);
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.inactive,
+.inactive:hover {
+  padding-left: 15px;
+  color: #777;
+}

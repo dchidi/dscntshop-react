@@ -1,0 +1,39 @@
+.search {
+  /* background-color: aquamarine; */
+  background-image: url(https://st.depositphotos.com/1000441/3056/i/600/depositphotos_30562009-stock-photo-falling-red-cubes-with-percent.jpg);
+  /* background-image: url(https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/5b0d07ad-05a4-4901-8e5e-ab5125fdae7f-760x400.jpeg); */
+  background-attachment: fixed;
+  background-size: fit;
+  padding: 0;
+  margin: 0;
+}
+
+.search_blur {
+  padding: 8% 8% 10% 4% !important;
+  /* background-color: rgba(14, 10, 35, 0.6); */
+  background-color: rgba(17, 16, 16, 0.2);
+  width: 100%;
+}
+
+.input {
+  height: 65px;
+  text-indent: 20px;
+  min-width: 80%;
+}
+.filter {
+  color: #000;
+  margin-left: -60px;
+  margin-top: 10px;
+  z-index: 1000;
+  font-size: 30px;
+}
+.filter:hover {
+  color: #cb5e18;
+}
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+  .input {
+    min-width: 40%;
+  }
+}

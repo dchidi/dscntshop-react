@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.title {
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  color: #000;
+  letter-spacing: 1px;
+}
+a.more {
+  color: #1d0333;
+  font-size: 14px;
+  font-weight: bold;
+}
+.found {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fd7c0b;
+}
+.card {
+  border-top: solid 2px #c5674a;
+  /* font-family: "Quicksand", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05%;
+  color: #000;
+}
+.discount {
+  color: #bf340a;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.price {
+  color: rgb(13, 10, 62);
+  letter-spacing: 1px;
+}
+
+hr.thinHr {
+  border: 0;
+  height: 0.3%;
+  color: #c5674a;
+  /* border-bottom: none; */
+}
+.scroll {
+  display: inline-block;
+  white-space: nowrap;
+}
+.scroll2 {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  /* -ms-overflow-style: none;  */
+  /* scrollbar-width: none;  */
+}
+/* .scroll2::-webkit-scrollbar {
+  display: none; 
+} */
+
+.scroll2::-webkit-scrollbar {
+  width: 1em;
+  height: 0.3em;
+}
+
+.scroll2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+  width: 3px;
+}
+
+.scroll2::-webkit-scrollbar-thumb {
+  background-color: #9f9f9f;
+  border-radius: 50px;
+}
